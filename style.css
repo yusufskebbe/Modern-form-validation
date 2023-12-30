@@ -1,4 +1,51 @@
-html{
+*{
   box-sizing: border-box;
 }
 
+body{
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: teal;
+
+}
+
+.container{
+  width: 480px;
+  height:630px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:10px;
+  box-shadow: 0 5px  30px 10px rgba(0, 0, 0, 0.4);  /* first value is horizontal value(yatay), second value is vertical value (dikey) , third one is the blur , forth value is the spred (value away from object)  */
+}
+
+form{
+  width: 90%;
+}
+
+.form-group{
+  height: 65px;
+}
+label{
+  position: relative;
+  bottom: 3px;
+}
+
+input{
+  width: 100%; 
+  height: 34px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  
+
+}
