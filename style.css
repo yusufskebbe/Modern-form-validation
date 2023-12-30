@@ -32,6 +32,7 @@ form{
 }
 
 .form-group{
+  position: relative;
   height: 65px;
 }
 label{
@@ -81,6 +82,16 @@ button:hover{
 
 button:focus{
   outline: none;
+}
+.password-checkbox{
+  position: absolute;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  color: red;
+  background-color: red;
+  border: 1px solid blue;
+  border-radius:50%;
 }
 
 .message-container{
